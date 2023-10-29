@@ -34,10 +34,42 @@ function scanDirectory(directoryPath) {
   return result
 }
 
+function generateMarkdownTable(exercismInfo) {
+  let markdown = '| Exercise |'
+  for (const language in exercismInfo) {
+    markdown += ` ${language} |`
+  }
+  markdown += '\n| --- |'
+  for (let i = 0; i < Object.keys(exercismInfo).length; i++) {
+    markdown += ' --- |'
+  }
+  markdown += '\n'
+
+  const exercises = Object.values(exercismInfo)[0].exercises
+  for (const exercise of exercises) {
+    markdown += `| ${exercise} |`
+    for (const language in exercismInfo) {
+      const languagePath = path.join('exercism', language, exercise)
+      const link = fs.existsSync(languagePath)
+        ? `[Link](./${language}/${exercise})`
+        : '-'
+      markdown += ` ${link} |`
+    }
+    markdown += '\n'
+  }
+
+  return markdown
+}
+
 const exercismDirectory = './exercism' // Replace with the path to your Exercism directory
-const outputFilePath = 'exercism_info.json'
+const outputJsonPath = 'exercism_info.json'
+const outputMarkdownPath = 'exercism_info.md'
 
 const exercismInfo = scanDirectory(exercismDirectory)
-fs.writeFileSync(outputFilePath, JSON.stringify(exercismInfo, null, 2))
+fs.writeFileSync(outputJsonPath, JSON.stringify(exercismInfo, null, 2))
 
-console.log(`JSON file generated at ${outputFilePath}`)
+const markdownTable = generateMarkdownTable(exercismInfo)
+fs.writeFileSync(outputMarkdownPath, markdownTable)
+
+console.log(`JSON file generated at ${outputJsonPath}`)
+console.log(`Markdown file generated at ${outputMarkdownPath}`)
