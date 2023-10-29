@@ -1,24 +1,10 @@
-# coding-challenges
+# Coding-challenges
 
 ## Description
 
-## Installation
+## Sources
 
-## Usage
-
-## Contributing
-
-## License
-
-## Project status
-
-## Author
-
-## Acknowledgements
-
-## Contact
-
-## Project link
-
-## Project dependencies
-
+- [Exercism](https://exercism.org/)
+- [CoderByte](https://coderbyte.com/)
+- [CoderWars](https://www.codewars.com/)
+- [LetCode](https://leetcode.com/)
