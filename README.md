@@ -1,4 +1,4 @@
-# # 🎯 Coding-challenges
+## 🎯 Coding-challenges
 
 ## Description
 
