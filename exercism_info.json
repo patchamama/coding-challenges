@@ -1,0 +1,71 @@
+{
+  "delphi": {
+    "languages": [
+      "hello-world"
+    ],
+    "exercises": []
+  },
+  "javascript": {
+    "languages": [
+      "anagram",
+      "annalyns-infiltration",
+      "bird-watcher",
+      "elyses-enchantments",
+      "freelancer-rates",
+      "gigasecond",
+      "hello-world",
+      "lasagna",
+      "leap",
+      "mixed-juices",
+      "pascals-triangle",
+      "poetry-club-door-policy",
+      "prime-factors",
+      "raindrops",
+      "transpose",
+      "vehicle-purchase"
+    ],
+    "exercises": []
+  },
+  "php": {
+    "languages": [
+      "hello-world",
+      "lasagna"
+    ],
+    "exercises": [
+      ".phpunit.result.cache",
+      "brew-php-switcher.sh",
+      "phpunit"
+    ]
+  },
+  "python": {
+    "languages": [
+      "armstrong-numbers",
+      "black-jack",
+      "bob",
+      "collatz-conjecture",
+      "currency-exchange",
+      "darts",
+      "ghost-gobble-arcade-game",
+      "grains",
+      "guidos-gorgeous-lasagna",
+      "hello-world",
+      "leap",
+      "little-sisters-essay",
+      "little-sisters-vocab",
+      "meltdown-mitigation",
+      "pangram",
+      "perfect-numbers",
+      "pig-latin",
+      "raindrops",
+      "reverse-string",
+      "triangle"
+    ],
+    "exercises": []
+  },
+  "typescript": {
+    "languages": [
+      "hello-world"
+    ],
+    "exercises": []
+  }
+}
