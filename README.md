@@ -70,7 +70,7 @@ _Example: `bash exercism-upd.sh python grains`_
 
 ## Sources of exercises
 
-- https://exercism․org
+- https://exercism․org [Solutions](exercism_info.md)
 - https://coderbyte․com
 - https://codewars․com
 - https://leetcode․com
