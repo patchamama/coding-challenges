@@ -12,6 +12,7 @@ This repository contains a collection of challenges that I have solved.
 |                                         | [php](https://exercism.org/tracks/php)               | [2](./exercism/php)/96          |
 |                                         | [python](https://exercism.org/tracks/python)         | [20](./exercism/python)/138     |
 |                                         | [typescript](https://exercism.org/tracks/typescript) | [1](./exercism/typescript)/138  |
+|                                         |                                                      | 44/589 (7.47%)                  |
 
 ## Exercism solutions
 
@@ -52,6 +53,7 @@ This repository contains a collection of challenges that I have solved.
 | transpose                | [\*](https://exercism.org/tracks/delphi/exercises/transpose)                                     | [x](./exercism/javascript/transpose)[\*](https://exercism.org/tracks/javascript/exercises/transpose)                             | [\*](https://exercism.org/tracks/php/exercises/transpose)                                  | [\*](https://exercism.org/tracks/python/exercises/transpose)                                                               | [\*](https://exercism.org/tracks/typescript/exercises/transpose)                                         | 1     |
 | triangle                 | [\*](https://exercism.org/tracks/delphi/exercises/triangle)                                      | [\*](https://exercism.org/tracks/javascript/exercises/triangle)                                                                  | [\*](https://exercism.org/tracks/php/exercises/triangle)                                   | [x](./exercism/python/triangle)[\*](https://exercism.org/tracks/python/exercises/triangle)                                 | [\*](https://exercism.org/tracks/typescript/exercises/triangle)                                          | 1     |
 | vehicle-purchase         | [\*](https://exercism.org/tracks/delphi/exercises/vehicle-purchase)                              | [x](./exercism/javascript/vehicle-purchase)[\*](https://exercism.org/tracks/javascript/exercises/vehicle-purchase)               | [\*](https://exercism.org/tracks/php/exercises/vehicle-purchase)                           | [\*](https://exercism.org/tracks/python/exercises/vehicle-purchase)                                                        | [\*](https://exercism.org/tracks/typescript/exercises/vehicle-purchase)                                  | 1     |
+|                          |                                                                                                  |                                                                                                                                  |                                                                                            |                                                                                                                            |                                                                                                          | 44    |
 
 ## Scripts
 
