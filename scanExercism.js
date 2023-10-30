@@ -69,10 +69,12 @@ function generateMarkdownTable(exercismInfo) {
   for (const language in exercismInfo) {
     markdown += ` ${language} |`
   }
+  markdown += ' COUNT |'
   markdown += '\n| --- |'
   for (let i = 0; i < Object.keys(exercismInfo).length; i++) {
     markdown += ' --- |'
   }
+  markdown += ' --- |'
   markdown += '\n'
 
   // Sort the totalExercises array in alphabetical order
@@ -81,13 +83,16 @@ function generateMarkdownTable(exercismInfo) {
   //   const exercises = Object.values(exercismInfo)[0].exercises
   for (const exercise of totalExercises) {
     markdown += `| ${exercise} |`
+    count = 0
     for (const language in exercismInfo) {
       const languagePath = path.join('exercism', language, exercise)
       const link = fs.existsSync(languagePath)
         ? `[x](./exercism/${language}/${exercise})[*](https://exercism.org/tracks/${language}/exercises/${exercise})`
         : `[*](https://exercism.org/tracks/${language}/exercises/${exercise})`
       markdown += ` ${link} |`
+      count += link.includes('[x]') ? 1 : 0
     }
+    markdown += ` ${count} |`
     markdown += '\n'
   }
 
