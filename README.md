@@ -99,3 +99,7 @@ _For example: `node scanExercises.js exercism`. In the folder `exercism` are inc
 - https://codesignal․com
 - https://hackerrank․com
 - http://algorithm-visualizer.org
+
+### Weekly Callenges - retos de programación
+
+- https://retosdeprogramacion.com/
