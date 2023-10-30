@@ -50,6 +50,7 @@ function generateMarkdownTable(exercismInfo) {
   markdown += '| [Exercism](https://exercism.org/tracks) |   |   |\n'
 
   let count = 0
+  let countTotal = 0
   let totalExercises = []
   for (let i = 0; i < Object.keys(exercismInfo).length; i++) {
     count = 0
@@ -92,21 +93,31 @@ function generateMarkdownTable(exercismInfo) {
       markdown += ` ${link} |`
       count += link.includes('[x]') ? 1 : 0
     }
+    countTotal += count
     markdown += ` ${count} |`
     markdown += '\n'
   }
+  markdown += '|  |'
+  for (let i = 0; i < Object.keys(exercismInfo).length; i++) {
+    markdown += '  |'
+  }
+  markdown += `  ${countTotal} |`
+  markdown += '\n'
 
   return markdown
 }
 
-const exercismDirectory = './exercism' // Replace with the path to your Exercism directory
-const outputJsonPath = 'exercism_info.json'
-const outputMarkdownPath = 'exercism_info.md'
+// Source of exercises
+const source = process.argv[2] || 'exercism'
 
-const exercismInfo = scanDirectory(exercismDirectory)
-fs.writeFileSync(outputJsonPath, JSON.stringify(exercismInfo, null, 2))
+const Directory = `./${source}` // Replace with the path to your Exercism directory
+const outputJsonPath = `${source}_info.json`
+const outputMarkdownPath = `${source}_info.md`
 
-const markdownTable = generateMarkdownTable(exercismInfo)
+const Info = scanDirectory(Directory)
+fs.writeFileSync(outputJsonPath, JSON.stringify(Info, null, 2))
+
+const markdownTable = generateMarkdownTable(Info)
 fs.writeFileSync(outputMarkdownPath, markdownTable)
 
 console.log(`JSON file generated at ${outputJsonPath}`)
