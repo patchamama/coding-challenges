@@ -9,6 +9,7 @@
     "exercises": [
       "anagram",
       "annalyns-infiltration",
+      "armstrong-numbers",
       "bird-watcher",
       "elyses-enchantments",
       "freelancer-rates",
@@ -19,6 +20,7 @@
       "matching-brackets",
       "mixed-juices",
       "pascals-triangle",
+      "pig-latin",
       "poetry-club-door-policy",
       "prime-factors",
       "raindrops",
