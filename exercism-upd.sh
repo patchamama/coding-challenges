@@ -1,7 +1,7 @@
 echo Updating exercise of $1: $2
 
 exercism download --exercise=$2 --track=$1
-cp -R /Users/mandy/Exercism .
+cp -R ~/Exercism .
 git add .
 git commit -m "add $1 solution: $2"
 git push
