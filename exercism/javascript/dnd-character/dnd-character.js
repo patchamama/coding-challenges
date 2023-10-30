@@ -4,33 +4,32 @@
 //
 
 export const abilityModifier = (val) => {
-  if (val < 3) {
-    throw new Error('Ability scores must be at least 3');
-  }
-  if (val > 18) {
-    throw new Error('Ability scores can be at most 18');
-  }
+  if (val < 3) throw new Error('Ability scores must be at least 3')
+  if (val > 18) throw new Error('Ability scores can be at most 18')
   return Math.floor((val - 10) / 2)
 };
 
-// Define a function to generate a random number between 3 and 18
-function getRandomNumber() {
-  return Math.floor(Math.random() * (18 - 3 + 1) + 3);
-}
-
 export class Character {
    constructor() {
-    this.rollAbilityVal = getRandomNumber();
-    this.strengthVal = getRandomNumber();
-    this.dexterityVal = getRandomNumber();
-    this.constitutionVal = getRandomNumber();
-    this.intelligenceVal = getRandomNumber();
-    this.wisdomVal = getRandomNumber();
-    this.charismaVal = getRandomNumber();
+    this.rollAbilityVal = Character.rollAbility();
+    this.strengthVal = Character.rollAbility();
+    this.dexterityVal = Character.rollAbility();
+    this.constitutionVal = Character.rollAbility();
+    this.intelligenceVal = Character.rollAbility();
+    this.wisdomVal = Character.rollAbility();
+    this.charismaVal = Character.rollAbility();
   }
   
   static rollAbility() {
-    return getRandomNumber();
+    const rollDice = () => {
+      return Math.floor(Math.random() * Math.floor(6)) + 1;
+    };
+    return Array(4)
+      .fill(0)
+      .map(rollDice)  // 4d6
+      .sort()
+      .slice(1, 4)    // keep top 3
+      .reduce((a, v) => a + v, 0);
   } 
 
   get strength() {

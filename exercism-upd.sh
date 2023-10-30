@@ -1,6 +1,6 @@
 echo Updating exercise of $1: $2
 
-exercism download --exercise=$2 --track=$1
+exercism download --exercise=$2 --track=$1 --force
 cp -R ~/Exercism .
 git add .
 git commit -m "add $1 solution: $2"
@@ -24,3 +24,4 @@ examples:
  bash exercism-upd.sh php lasagna
        exercism download --exercise=lasagna --track=php
 
+exercism download --exercise=darts --track=javascript
