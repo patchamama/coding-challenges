@@ -12,21 +12,21 @@ function scanDirectory(directoryPath) {
 
     if (stat.isDirectory()) {
       const subFiles = fs.readdirSync(filePath)
-      const languages = []
       const exercises = []
+      const others = []
 
       for (const subFile of subFiles) {
         const subFilePath = path.join(filePath, subFile)
 
         if (fs.statSync(subFilePath).isDirectory()) {
-          languages.push(subFile)
-        } else {
           exercises.push(subFile)
+        } else {
+          others.push(subFile)
         }
       }
 
-      if (languages.length > 0) {
-        result[file] = { languages, exercises }
+      if (exercises.length > 0) {
+        result[file] = { exercises, others }
       }
     }
   }
@@ -45,14 +45,23 @@ function generateMarkdownTable(exercismInfo) {
   }
   markdown += '\n'
 
-  const exercises = Object.values(exercismInfo)[0].exercises
-  for (const exercise of exercises) {
+  let totalExercises = []
+  for (let i = 0; i < Object.keys(exercismInfo).length; i++) {
+    for (const exercise of Object.values(exercismInfo)[i].exercises) {
+      if (!totalExercises.includes(exercise)) {
+        totalExercises.push(exercise)
+      }
+    }
+  }
+
+  //   const exercises = Object.values(exercismInfo)[0].exercises
+  for (const exercise of totalExercises) {
     markdown += `| ${exercise} |`
     for (const language in exercismInfo) {
       const languagePath = path.join('exercism', language, exercise)
       const link = fs.existsSync(languagePath)
-        ? `[Link](./${language}/${exercise})`
-        : '-'
+        ? `[x](./${language}/${exercise})[*](https://exercism.org/tracks/${language}/exercises/${exercise})`
+        : `[*](https://exercism.org/tracks/${language}/exercises/${exercise})`
       markdown += ` ${link} |`
     }
     markdown += '\n'
