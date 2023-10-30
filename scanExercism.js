@@ -38,7 +38,7 @@ function scanDirectory(directoryPath) {
 }
 
 function generateMarkdownTable(exercismInfo) {
-  let markdown
+  let markdown = ''
   let language
   const totalLang = {
     delphi: 76,
@@ -48,11 +48,12 @@ function generateMarkdownTable(exercismInfo) {
     typescript: 138,
   }
 
-  markdown = '| Source | Language | Exercises |\n'
-  markdown += '| --- | --- | --- |\n'
-  markdown += `| [${
+  markdown += `## [${
     source.charAt(0).toUpperCase() + source.slice(1)
-  }](https://${source}.org/tracks) |   |   |\n`
+  }](https://${source}.org/tracks)\n\n`
+
+  markdown += '| Language | Exercises |\n'
+  markdown += '|  --- | --- |\n'
 
   let count = 0
   let countTotal = 0
@@ -69,19 +70,17 @@ function generateMarkdownTable(exercismInfo) {
     }
     language = Object.keys(exercismInfo)[i]
     let total = totalLang[language]
-    markdown += `| | [${language}](https://exercism.org/tracks/${language}) | [${count}](./exercism/${language})/${total} |\n`
+    markdown += `| [${language}](https://exercism.org/tracks/${language}) | [${count}](./exercism/${language})/${total} |\n`
     countTotal += count
     countGlobal += total
   }
   percent = (countTotal * 100) / countGlobal
 
-  markdown += `| | |${countTotal}/${countGlobal} (${percent.toFixed(2)}%)`
+  markdown += `| |${countTotal}/${countGlobal} (${percent.toFixed(2)}%)`
 
   // -------------
   countTotal = 0
-  markdown += `\n\n## ${
-    source.charAt(0).toUpperCase() + source.slice(1)
-  } solutions\n\n`
+  markdown += `\n\n## Solutions\n\n`
   markdown += '| Exercise |'
   for (const language in exercismInfo) {
     markdown += ` ${language} |`

@@ -1,20 +1,21 @@
 ## 🎯 Coding-challenges
 
-## Description
-
 This repository contains a collection of challenges that I have solved.
 
-| Source                                  | Language                                             | Exercises                       |
-| --------------------------------------- | ---------------------------------------------------- | ------------------------------- |
-| [Exercism](https://exercism.org/tracks) |                                                      |                                 |
-|                                         | [delphi](https://exercism.org/tracks/delphi)         | [1](./exercism/delphi)/76       |
-|                                         | [javascript](https://exercism.org/tracks/javascript) | [20](./exercism/javascript)/141 |
-|                                         | [php](https://exercism.org/tracks/php)               | [2](./exercism/php)/96          |
-|                                         | [python](https://exercism.org/tracks/python)         | [20](./exercism/python)/138     |
-|                                         | [typescript](https://exercism.org/tracks/typescript) | [1](./exercism/typescript)/138  |
-|                                         |                                                      | 44/589 (7.47%)                  |
+---
 
-## Exercism solutions
+## [Exercism](https://exercism.org/tracks)
+
+| Language                                             | Exercises                       |
+| ---------------------------------------------------- | ------------------------------- |
+| [delphi](https://exercism.org/tracks/delphi)         | [1](./exercism/delphi)/76       |
+| [javascript](https://exercism.org/tracks/javascript) | [20](./exercism/javascript)/141 |
+| [php](https://exercism.org/tracks/php)               | [2](./exercism/php)/96          |
+| [python](https://exercism.org/tracks/python)         | [20](./exercism/python)/138     |
+| [typescript](https://exercism.org/tracks/typescript) | [1](./exercism/typescript)/138  |
+|                                                      | 44/589 (7.47%)                  |
+
+## Solutions
 
 | Exercise                 | delphi                                                                                           | javascript                                                                                                                       | php                                                                                        | python                                                                                                                     | typescript                                                                                               | COUNT |
 | ------------------------ | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----- |
