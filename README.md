@@ -4,6 +4,16 @@
 
 This repository contains a collection of challenges that I have solved.
 
+| Source                                  | Language                          | Exercises done |
+| --------------------------------------- | --------------------------------- | -------------- |
+| [Exercism](https://exercism.org/tracks) | [JavaScript](exercism/javascript) | 16/141         |
+|                                         | [TypeScript](exercism/typescript) | 1/138          |
+|                                         | [Python](exercism/python)         | 20/138         |
+|                                         | [PHP](exercism/php)               | 2/96           |
+|                                         | [Delphi Pascal](exercism/delphi)  | 1/76           |
+
+## Exercism solutions
+
 | Exercise                 | delphi                                                                                           | javascript                                                                                                                       | php                                                                                        | python                                                                                                                     | typescript                                                                                               |
 | ------------------------ | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | anagram                  | [\*](https://exercism.org/tracks/delphi/exercises/anagram)                                       | [x](./exercism/javascript/anagram)[\*](https://exercism.org/tracks/javascript/exercises/anagram)                                 | [\*](https://exercism.org/tracks/php/exercises/anagram)                                    | [\*](https://exercism.org/tracks/python/exercises/anagram)                                                                 | [\*](https://exercism.org/tracks/typescript/exercises/anagram)                                           |
