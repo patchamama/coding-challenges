@@ -35,7 +35,37 @@ function scanDirectory(directoryPath) {
 }
 
 function generateMarkdownTable(exercismInfo) {
-  let markdown = '| Exercise |'
+  let markdown
+  let language
+  const totalLang = {
+    delphi: 76,
+    javascript: 141,
+    php: 96,
+    python: 138,
+    typescript: 138,
+  }
+
+  markdown = '| Source | Language | Exercises |\n'
+  markdown += '| --- | --- | --- |\n'
+  markdown += '| [Exercism](https://exercism.org/tracks) |   |   |\n'
+
+  let count = 0
+  let totalExercises = []
+  for (let i = 0; i < Object.keys(exercismInfo).length; i++) {
+    count = 0
+    for (const exercise of Object.values(exercismInfo)[i].exercises) {
+      count++
+      if (!totalExercises.includes(exercise)) {
+        totalExercises.push(exercise)
+      }
+    }
+    language = Object.keys(exercismInfo)[i]
+    let total = totalLang[language]
+    markdown += `| | [${language}](https://exercism.org/tracks/${language}) | [${count}](./exercism/${language})/${total} |\n`
+  }
+
+  markdown += '\n\n## Exercism solutions\n\n'
+  markdown += '| Exercise |'
   for (const language in exercismInfo) {
     markdown += ` ${language} |`
   }
@@ -44,15 +74,6 @@ function generateMarkdownTable(exercismInfo) {
     markdown += ' --- |'
   }
   markdown += '\n'
-
-  let totalExercises = []
-  for (let i = 0; i < Object.keys(exercismInfo).length; i++) {
-    for (const exercise of Object.values(exercismInfo)[i].exercises) {
-      if (!totalExercises.includes(exercise)) {
-        totalExercises.push(exercise)
-      }
-    }
-  }
 
   // Sort the totalExercises array in alphabetical order
   totalExercises.sort()

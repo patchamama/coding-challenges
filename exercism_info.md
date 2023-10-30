@@ -1,3 +1,15 @@
+| Source | Language | Exercises |
+| --- | --- | --- |
+| [Exercism](https://exercism.org/tracks) |   |   |
+| | [delphi](https://exercism.org/tracks/delphi) | [1](./exercism/delphi)/76 |
+| | [javascript](https://exercism.org/tracks/javascript) | [20](./exercism/javascript)/141 |
+| | [php](https://exercism.org/tracks/php) | [2](./exercism/php)/96 |
+| | [python](https://exercism.org/tracks/python) | [20](./exercism/python)/138 |
+| | [typescript](https://exercism.org/tracks/typescript) | [1](./exercism/typescript)/138 |
+
+
+## Exercism solutions
+
 | Exercise | delphi | javascript | php | python | typescript |
 | --- | --- | --- | --- | --- | --- |
 | anagram | [*](https://exercism.org/tracks/delphi/exercises/anagram) | [x](./exercism/javascript/anagram)[*](https://exercism.org/tracks/javascript/exercises/anagram) | [*](https://exercism.org/tracks/php/exercises/anagram) | [*](https://exercism.org/tracks/python/exercises/anagram) | [*](https://exercism.org/tracks/typescript/exercises/anagram) |
