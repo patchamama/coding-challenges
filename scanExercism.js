@@ -54,6 +54,9 @@ function generateMarkdownTable(exercismInfo) {
     }
   }
 
+  // Sort the totalExercises array in alphabetical order
+  totalExercises.sort()
+
   //   const exercises = Object.values(exercismInfo)[0].exercises
   for (const exercise of totalExercises) {
     markdown += `| ${exercise} |`
