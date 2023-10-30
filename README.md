@@ -58,17 +58,17 @@ This repository contains a collection of challenges that I have solved.
 
 ## Scripts
 
-### With `exercism`: copy the default work directory to the local repo the exercises resolved and commit to github
+### With `exercism`: copy the default work directory to the local repo, the exercises resolved and commit to github
 
 `bash exercism-upd.sh <language> <exercise-name>`
 
 _Example: `bash exercism-upd.sh python grains`_
 
-### Regenerate table to README with statistics
+### Regenerate table to the README.md with statistics
 
 `node scanExercises.js <source-of-exercises>`
 
-_For example: `node scanExercises.js exercism`. In the folder `exercism` are include the `languages` and `exercises` folder with a directory structure similar to thisone:_
+_For example: `node scanExercises.js exercism`. In the folder `exercism` are include the `languages` and `exercises` folders with a directory structure similar to thisone:_
 
 ```
 |--- exercism
