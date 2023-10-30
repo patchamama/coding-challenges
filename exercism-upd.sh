@@ -6,9 +6,11 @@ git add .
 git commit -m "add $1 solution: $2"
 git push
 
+# Regenerate the markdown table of statistics
+node scanExercism.js exercism
+
 exit
-pause
-input
+
 examples:
  bash exercism-upd.sh python grains   
         exercism download --exercise=grains --track=python

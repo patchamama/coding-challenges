@@ -58,7 +58,7 @@ This repository contains a collection of challenges that I have solved.
 
 ## Scripts
 
-### Copy to local repo the exercise resolved and commit to github
+### With `exercism`: copy the default work directory to the local repo the exercises resolved and commit to github
 
 `bash exercism-upd.sh <language> <exercise-name>`
 
