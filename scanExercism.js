@@ -63,7 +63,7 @@ function generateMarkdownTable(exercismInfo) {
     for (const language in exercismInfo) {
       const languagePath = path.join('exercism', language, exercise)
       const link = fs.existsSync(languagePath)
-        ? `[x](./${language}/${exercise})[*](https://exercism.org/tracks/${language}/exercises/${exercise})`
+        ? `[x](./exercism/${language}/${exercise})[*](https://exercism.org/tracks/${language}/exercises/${exercise})`
         : `[*](https://exercism.org/tracks/${language}/exercises/${exercise})`
       markdown += ` ${link} |`
     }
