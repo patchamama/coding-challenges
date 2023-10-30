@@ -51,6 +51,8 @@ function generateMarkdownTable(exercismInfo) {
 
   let count = 0
   let countTotal = 0
+  let countGlobal = 0
+  let percent = 0
   let totalExercises = []
   for (let i = 0; i < Object.keys(exercismInfo).length; i++) {
     count = 0
@@ -63,8 +65,15 @@ function generateMarkdownTable(exercismInfo) {
     language = Object.keys(exercismInfo)[i]
     let total = totalLang[language]
     markdown += `| | [${language}](https://exercism.org/tracks/${language}) | [${count}](./exercism/${language})/${total} |\n`
+    countTotal += count
+    countGlobal += total
   }
+  percent = (countTotal * 100) / countGlobal
 
+  markdown += `| | |${countTotal}/${countGlobal} (${percent.toFixed(2)}%)`
+
+  // -------------
+  countTotal = 0
   markdown += '\n\n## Exercism solutions\n\n'
   markdown += '| Exercise |'
   for (const language in exercismInfo) {

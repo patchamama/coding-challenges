@@ -6,7 +6,7 @@
 | | [php](https://exercism.org/tracks/php) | [2](./exercism/php)/96 |
 | | [python](https://exercism.org/tracks/python) | [20](./exercism/python)/138 |
 | | [typescript](https://exercism.org/tracks/typescript) | [1](./exercism/typescript)/138 |
-
+| | |44/589 (7.47%)
 
 ## Exercism solutions
 
