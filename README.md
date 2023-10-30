@@ -66,9 +66,9 @@ _Example: `bash exercism-upd.sh python grains`_
 
 ### Regenerate table to README with statistics
 
-`node scanExercism.js <source-of-exercises>`
+`node scanExercises.js <source-of-exercises>`
 
-_For example: `node scanExercism.js exercism`. In the folder `exercism` are include the `languages` and `exercises` folder with a directory structure similar to thisone:_
+_For example: `node scanExercises.js exercism`. In the folder `exercism` are include the `languages` and `exercises` folder with a directory structure similar to thisone:_
 
 ```
 |--- exercism

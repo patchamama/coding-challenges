@@ -7,7 +7,7 @@ git commit -m "add $1 solution: $2"
 git push
 
 # Regenerate the markdown table of statistics
-node scanExercism.js exercism
+node scanExercises.js exercism
 
 exit
 
