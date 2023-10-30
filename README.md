@@ -53,9 +53,21 @@ This repository contains a collection of challenges that I have solved.
 | triangle                 | [\*](https://exercism.org/tracks/delphi/exercises/triangle)                                      | [\*](https://exercism.org/tracks/javascript/exercises/triangle)                                                                  | [\*](https://exercism.org/tracks/php/exercises/triangle)                                   | [x](./exercism/python/triangle)[\*](https://exercism.org/tracks/python/exercises/triangle)                                 | [\*](https://exercism.org/tracks/typescript/exercises/triangle)                                          | 1     |
 | vehicle-purchase         | [\*](https://exercism.org/tracks/delphi/exercises/vehicle-purchase)                              | [x](./exercism/javascript/vehicle-purchase)[\*](https://exercism.org/tracks/javascript/exercises/vehicle-purchase)               | [\*](https://exercism.org/tracks/php/exercises/vehicle-purchase)                           | [\*](https://exercism.org/tracks/python/exercises/vehicle-purchase)                                                        | [\*](https://exercism.org/tracks/typescript/exercises/vehicle-purchase)                                  | 1     |
 
-## Sources
+## Scripts
 
-- [Exercism](https://exercism.org/)
+### Copy to local repo the exercise resolved and commit to github
+
+`bash exercism-upd.sh <language> <exercise-name>`
+
+_Example: `bash exercism-upd.sh python grains`_
+
+### Regenerate table to README with statistics
+
+`node scanExercism.js`
+
+## Sources of exercises
+
+- [Exercism](https://exercism.org/)\*
 - [CoderByte](https://coderbyte.com/)
 - [CoderWars](https://www.codewars.com/)
 - [LetCode](https://leetcode.com/)
