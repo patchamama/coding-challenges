@@ -73,15 +73,15 @@ _For example: `node scanExercises.js exercism`. In the folder `exercism` are inc
 ```
 |--- exercism
 |      |--- javascript
-|      |        |--- anagram
-|      |        |--- gigasecond
-|      |        |--- hello-world
-|      |        |--- ....
+|      |      |--- anagram
+|      |      |--- gigasecond
+|      |      |--- hello-world
+|      |      |--- ....
 |      |--- python
-|      |        |--- anagram
-|      |        |--- gigasecond
-|      |        |--- hello-world
-|      |        |--- ....
+|      |      |--- anagram
+|      |      |--- gigasecond
+|      |      |--- hello-world
+|      |      |--- ....
 ```
 
 ## Sources of exercises
@@ -102,4 +102,4 @@ _For example: `node scanExercises.js exercism`. In the folder `exercism` are inc
 
 ### Weekly Callenges - retos de programación
 
-- https://retosdeprogramacion.com/ Details of `Retos de programación semanales`: [2022](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin)| [2023](https://github.com/mouredev/retos-programacion-2023)
+- https://retosdeprogramacion.com/ Details of `Retos de programación semanales`: [2022](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin) | [2023](https://github.com/mouredev/retos-programacion-2023)
