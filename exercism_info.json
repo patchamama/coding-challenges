@@ -35,7 +35,8 @@
   "php": {
     "exercises": [
       "hello-world",
-      "lasagna"
+      "lasagna",
+      "pascals-triangle"
     ],
     "others": [
       ".phpunit.result.cache",
