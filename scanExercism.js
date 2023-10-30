@@ -1,6 +1,9 @@
 const fs = require('fs')
 const path = require('path')
 
+// Source of exercises
+const source = process.argv[2] || 'exercism'
+
 function scanDirectory(directoryPath) {
   const result = {}
 
@@ -47,7 +50,9 @@ function generateMarkdownTable(exercismInfo) {
 
   markdown = '| Source | Language | Exercises |\n'
   markdown += '| --- | --- | --- |\n'
-  markdown += '| [Exercism](https://exercism.org/tracks) |   |   |\n'
+  markdown += `| [${
+    source.charAt(0).toUpperCase() + source.slice(1)
+  }](https://${source}.org/tracks) |   |   |\n`
 
   let count = 0
   let countTotal = 0
@@ -74,7 +79,9 @@ function generateMarkdownTable(exercismInfo) {
 
   // -------------
   countTotal = 0
-  markdown += '\n\n## Exercism solutions\n\n'
+  markdown += `\n\n## ${
+    source.charAt(0).toUpperCase() + source.slice(1)
+  } solutions\n\n`
   markdown += '| Exercise |'
   for (const language in exercismInfo) {
     markdown += ` ${language} |`
@@ -115,9 +122,6 @@ function generateMarkdownTable(exercismInfo) {
 
   return markdown
 }
-
-// Source of exercises
-const source = process.argv[2] || 'exercism'
 
 const Directory = `./${source}` // Replace with the path to your Exercism directory
 const outputJsonPath = `${source}_info.json`
