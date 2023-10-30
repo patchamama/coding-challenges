@@ -69,7 +69,16 @@ _Example: `bash exercism-upd.sh python grains`_
 
 ## Sources of exercises
 
-- [Exercism](https://exercism.org/)
-- [CoderByte](https://coderbyte.com/)
-- [CoderWars](https://www.codewars.com/)
-- [LetCode](https://leetcode.com/)
+- https://exercism․org
+- https://coderbyte․com
+- https://codewars․com
+- https://leetcode․com
+- https://frontendmentor.io
+- https://es.khanacademy.org/computing/computer-science/algorithms
+- https://app.codesignal.com
+- https://the-algorithms.com/es
+- https://www.patterns.dev/
+- https://adventjs․dev
+- https://codesignal․com
+- https://hackerrank․com
+- http://algorithm-visualizer.org
