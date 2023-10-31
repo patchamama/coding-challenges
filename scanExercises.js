@@ -44,8 +44,8 @@ function generateMarkdownTable(exercismInfo) {
     delphi: 76,
     javascript: 141,
     php: 96,
-    python: 138,
-    typescript: 138,
+    python: 139,
+    typescript: 95,
   }
 
   markdown += `## [${
