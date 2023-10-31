@@ -1,9 +1,5 @@
 const fs = require('fs')
 const path = require('path')
-
-const axios = require('axios')
-const http = require('http')
-
 const { exec } = require('child_process')
 
 // Source of exercises
