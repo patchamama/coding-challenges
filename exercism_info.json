@@ -74,6 +74,7 @@
   },
   "typescript": {
     "exercises": [
+      "armstrong-numbers",
       "hello-world"
     ],
     "others": []
