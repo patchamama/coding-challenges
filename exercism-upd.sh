@@ -9,7 +9,7 @@ git push
 # Regenerate the markdown table of statistics
 node scanExercises.js exercism
 git add .
-git commit -m "README Stats. updated"
+git commit -m "exercism_info.md Stats. updated"
 git push
 exit
 
