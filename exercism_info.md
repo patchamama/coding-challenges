@@ -6,8 +6,8 @@
 | [javascript](https://exercism.org/tracks/javascript) | [22](./exercism/javascript)/141 |
 | [php](https://exercism.org/tracks/php) | [6](./exercism/php)/96 |
 | [python](https://exercism.org/tracks/python) | [20](./exercism/python)/138 |
-| [typescript](https://exercism.org/tracks/typescript) | [22](./exercism/typescript)/138 |
-| |71/589 (12.05%)
+| [typescript](https://exercism.org/tracks/typescript) | [23](./exercism/typescript)/138 |
+| |72/589 (12.22%)
 
 ## Solutions
 
@@ -49,5 +49,6 @@
 | saddle-points | [*](https://exercism.org/tracks/delphi/exercises/saddle-points) | [x](./exercism/javascript/saddle-points)[*](https://exercism.org/tracks/javascript/exercises/saddle-points) | [*](https://exercism.org/tracks/php/exercises/saddle-points) | [*](https://exercism.org/tracks/python/exercises/saddle-points) | [x](./exercism/typescript/saddle-points)[*](https://exercism.org/tracks/typescript/exercises/saddle-points) | 2 |
 | transpose | [*](https://exercism.org/tracks/delphi/exercises/transpose) | [x](./exercism/javascript/transpose)[*](https://exercism.org/tracks/javascript/exercises/transpose) | [*](https://exercism.org/tracks/php/exercises/transpose) | [*](https://exercism.org/tracks/python/exercises/transpose) | [x](./exercism/typescript/transpose)[*](https://exercism.org/tracks/typescript/exercises/transpose) | 2 |
 | triangle | [*](https://exercism.org/tracks/delphi/exercises/triangle) | [*](https://exercism.org/tracks/javascript/exercises/triangle) | [*](https://exercism.org/tracks/php/exercises/triangle) | [x](./exercism/python/triangle)[*](https://exercism.org/tracks/python/exercises/triangle) | [x](./exercism/typescript/triangle)[*](https://exercism.org/tracks/typescript/exercises/triangle) | 2 |
+| two-fer | [*](https://exercism.org/tracks/delphi/exercises/two-fer) | [*](https://exercism.org/tracks/javascript/exercises/two-fer) | [*](https://exercism.org/tracks/php/exercises/two-fer) | [*](https://exercism.org/tracks/python/exercises/two-fer) | [x](./exercism/typescript/two-fer)[*](https://exercism.org/tracks/typescript/exercises/two-fer) | 1 |
 | vehicle-purchase | [*](https://exercism.org/tracks/delphi/exercises/vehicle-purchase) | [x](./exercism/javascript/vehicle-purchase)[*](https://exercism.org/tracks/javascript/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/php/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/python/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/typescript/exercises/vehicle-purchase) | 1 |
-|  |  |  |  |  |  |  71 |
+|  |  |  |  |  |  |  72 |

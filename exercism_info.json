@@ -95,7 +95,8 @@
       "reverse-string",
       "saddle-points",
       "transpose",
-      "triangle"
+      "triangle",
+      "two-fer"
     ],
     "others": []
   }
