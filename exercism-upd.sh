@@ -8,7 +8,7 @@ git push
 
 # Regenerate the markdown table of statistics
 node scanExercises.js exercism
-cat 1.txt exercism_info.md 2.txt > README.md
+cat README.1.txt exercism_info.md README.2.txt > README.md
 git add .
 git commit -m "docs: README.md and exercism_info.md Stats. updated"
 git push
