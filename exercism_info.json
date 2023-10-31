@@ -85,7 +85,8 @@
       "hello-world",
       "leap",
       "matching-brackets",
-      "pangram"
+      "pangram",
+      "pascals-triangle"
     ],
     "others": []
   }
