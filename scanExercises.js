@@ -2,6 +2,14 @@ const fs = require('fs')
 const path = require('path')
 const { exec } = require('child_process')
 
+const extension = {
+  delphi: '.dpr',
+  javascript: '.js',
+  php: '.php',
+  python: '.py',
+  typescript: '.ts',
+}
+
 // Source of exercises
 const source = process.argv[2] || 'exercism'
 
@@ -38,7 +46,8 @@ function scanDirectory(directoryPath) {
   return result
 }
 
-function exerciseExist(languagePath, url) {
+function exerciseExist(languagePath, language, exercise) {
+  let url = `https://raw.githubusercontent.com/exercism/${language}/main/exercises/practice/${exercise}/${exercise}${extension[language]}`
   let fileNotFound = languagePath + '_notExist'
   // exec(`rm ${fileNotFound}`)
 
@@ -58,8 +67,23 @@ function exerciseExist(languagePath, url) {
         // There was an error running the wget command, so the file doesn't exist.
         //console.log('Error: ', error)
         // console.log('Not exist:', url, ' file created:', fileNotFound)
-        fs.writeFile(fileNotFound, '', (error) => {})
-        resolve(false)
+        let capitalizeExercise =
+          exercise.charAt(0).toUpperCase() +
+          exercise.slice(1).toLowerCase().replace('-', '')
+        let url =
+          language === 'delphi'
+            ? `https://raw.githubusercontent.com/exercism/${language}/main/exercises/practice/${exercise}/${capitalizeExercise}${extension[language]}`
+            : `https://raw.githubusercontent.com/exercism/${language}/main/exercises/practice/${exercise}/${capitalizeExercise}${extension[language]}`
+
+        exec(`wget -O ${destinationFile} ${url}`, (error1) => {
+          exec(`rm ${destinationFile}`)
+          if (error1) {
+            fs.writeFile(fileNotFound, '', (error) => {})
+            resolve(false)
+          } else {
+            resolve(true)
+          }
+        })
       } else {
         resolve(true)
       }
@@ -90,13 +114,6 @@ function generateMarkdownTable(exercismInfo) {
     php: 96,
     python: 139,
     typescript: 95,
-  }
-  const extension = {
-    delphi: '.pas',
-    javascript: '.js',
-    php: '.php',
-    python: '.py',
-    typescript: '.ts',
   }
 
   markdown += `## [${
@@ -153,17 +170,14 @@ function generateMarkdownTable(exercismInfo) {
     count = 0
     for (const language in exercismInfo) {
       const languagePath = path.join('exercism', language, exercise)
-      exerciseExist(
-        languagePath,
-        `https://raw.githubusercontent.com/exercism/${language}/main/exercises/practice/${exercise}/${exercise}${extension[language]}`
-      )
+      exerciseExist(languagePath, language, exercise)
       let fileNotFound = languagePath + '_notExist'
 
       const link = fs.existsSync(languagePath)
         ? `[x](./exercism/${language}/${exercise})[*](https://exercism.org/tracks/${language}/exercises/${exercise})`
         : !fs.existsSync(fileNotFound)
         ? `[*](https://exercism.org/tracks/${language}/exercises/${exercise})`
-        : `[?](https://exercism.org/tracks/${language}/exercises/${exercise})`
+        : `[-](https://exercism.org/tracks/${language}/exercises/${exercise})`
       markdown += ` ${link} |`
       count += link.includes('[x]') ? 1 : 0
     }
