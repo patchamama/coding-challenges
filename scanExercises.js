@@ -69,7 +69,10 @@ function exerciseExist(languagePath, language, exercise) {
         // console.log('Not exist:', url, ' file created:', fileNotFound)
         let capitalizeExercise =
           exercise.charAt(0).toUpperCase() +
-          exercise.slice(1).toLowerCase().replace('-', '')
+          exercise
+            .slice(1)
+            .toLowerCase()
+            .replace(/-(.)/g, (match, group1) => group1.toUpperCase())
         let url =
           language === 'delphi'
             ? `https://raw.githubusercontent.com/exercism/${language}/main/exercises/practice/${exercise}/${capitalizeExercise}${extension[language]}`
