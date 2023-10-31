@@ -1,0 +1,23 @@
+{
+  "authors": [
+    "anuragsoni"
+  ],
+  "contributors": [
+    "masters3d",
+    "SleeplessByte"
+  ],
+  "files": {
+    "solution": [
+      "pascals-triangle.ts"
+    ],
+    "test": [
+      "pascals-triangle.test.ts"
+    ],
+    "example": [
+      ".meta/proof.ci.ts"
+    ]
+  },
+  "blurb": "Compute Pascal's triangle up to a given number of rows.",
+  "source": "Pascal's Triangle at Wolfram Math World",
+  "source_url": "https://www.wolframalpha.com/input/?i=Pascal%27s+triangle"
+}
