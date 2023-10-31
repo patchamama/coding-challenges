@@ -8,7 +8,9 @@ git push
 
 # Regenerate the markdown table of statistics
 node scanExercises.js exercism
-
+git add .
+git commit -m "README Stats. updated"
+git push
 exit
 
 examples:
@@ -24,4 +26,4 @@ examples:
  bash exercism-upd.sh php lasagna
        exercism download --exercise=lasagna --track=php
 
-exercism download --exercise=darts --track=javascript
+exercism download --exercise=bob --track=typescript

@@ -6,8 +6,8 @@
 | [javascript](https://exercism.org/tracks/javascript) | [22](./exercism/javascript)/141 |
 | [php](https://exercism.org/tracks/php) | [6](./exercism/php)/96 |
 | [python](https://exercism.org/tracks/python) | [20](./exercism/python)/138 |
-| [typescript](https://exercism.org/tracks/typescript) | [5](./exercism/typescript)/138 |
-| |54/589 (9.17%)
+| [typescript](https://exercism.org/tracks/typescript) | [6](./exercism/typescript)/138 |
+| |55/589 (9.34%)
 
 ## Solutions
 
@@ -18,7 +18,7 @@
 | armstrong-numbers | [*](https://exercism.org/tracks/delphi/exercises/armstrong-numbers) | [x](./exercism/javascript/armstrong-numbers)[*](https://exercism.org/tracks/javascript/exercises/armstrong-numbers) | [x](./exercism/php/armstrong-numbers)[*](https://exercism.org/tracks/php/exercises/armstrong-numbers) | [x](./exercism/python/armstrong-numbers)[*](https://exercism.org/tracks/python/exercises/armstrong-numbers) | [x](./exercism/typescript/armstrong-numbers)[*](https://exercism.org/tracks/typescript/exercises/armstrong-numbers) | 4 |
 | bird-watcher | [*](https://exercism.org/tracks/delphi/exercises/bird-watcher) | [x](./exercism/javascript/bird-watcher)[*](https://exercism.org/tracks/javascript/exercises/bird-watcher) | [*](https://exercism.org/tracks/php/exercises/bird-watcher) | [*](https://exercism.org/tracks/python/exercises/bird-watcher) | [*](https://exercism.org/tracks/typescript/exercises/bird-watcher) | 1 |
 | black-jack | [*](https://exercism.org/tracks/delphi/exercises/black-jack) | [*](https://exercism.org/tracks/javascript/exercises/black-jack) | [*](https://exercism.org/tracks/php/exercises/black-jack) | [x](./exercism/python/black-jack)[*](https://exercism.org/tracks/python/exercises/black-jack) | [*](https://exercism.org/tracks/typescript/exercises/black-jack) | 1 |
-| bob | [*](https://exercism.org/tracks/delphi/exercises/bob) | [*](https://exercism.org/tracks/javascript/exercises/bob) | [*](https://exercism.org/tracks/php/exercises/bob) | [x](./exercism/python/bob)[*](https://exercism.org/tracks/python/exercises/bob) | [*](https://exercism.org/tracks/typescript/exercises/bob) | 1 |
+| bob | [*](https://exercism.org/tracks/delphi/exercises/bob) | [*](https://exercism.org/tracks/javascript/exercises/bob) | [*](https://exercism.org/tracks/php/exercises/bob) | [x](./exercism/python/bob)[*](https://exercism.org/tracks/python/exercises/bob) | [x](./exercism/typescript/bob)[*](https://exercism.org/tracks/typescript/exercises/bob) | 2 |
 | collatz-conjecture | [*](https://exercism.org/tracks/delphi/exercises/collatz-conjecture) | [*](https://exercism.org/tracks/javascript/exercises/collatz-conjecture) | [*](https://exercism.org/tracks/php/exercises/collatz-conjecture) | [x](./exercism/python/collatz-conjecture)[*](https://exercism.org/tracks/python/exercises/collatz-conjecture) | [*](https://exercism.org/tracks/typescript/exercises/collatz-conjecture) | 1 |
 | currency-exchange | [*](https://exercism.org/tracks/delphi/exercises/currency-exchange) | [*](https://exercism.org/tracks/javascript/exercises/currency-exchange) | [*](https://exercism.org/tracks/php/exercises/currency-exchange) | [x](./exercism/python/currency-exchange)[*](https://exercism.org/tracks/python/exercises/currency-exchange) | [*](https://exercism.org/tracks/typescript/exercises/currency-exchange) | 1 |
 | darts | [*](https://exercism.org/tracks/delphi/exercises/darts) | [x](./exercism/javascript/darts)[*](https://exercism.org/tracks/javascript/exercises/darts) | [*](https://exercism.org/tracks/php/exercises/darts) | [x](./exercism/python/darts)[*](https://exercism.org/tracks/python/exercises/darts) | [x](./exercism/typescript/darts)[*](https://exercism.org/tracks/typescript/exercises/darts) | 3 |
@@ -49,4 +49,4 @@
 | transpose | [*](https://exercism.org/tracks/delphi/exercises/transpose) | [x](./exercism/javascript/transpose)[*](https://exercism.org/tracks/javascript/exercises/transpose) | [*](https://exercism.org/tracks/php/exercises/transpose) | [*](https://exercism.org/tracks/python/exercises/transpose) | [*](https://exercism.org/tracks/typescript/exercises/transpose) | 1 |
 | triangle | [*](https://exercism.org/tracks/delphi/exercises/triangle) | [*](https://exercism.org/tracks/javascript/exercises/triangle) | [*](https://exercism.org/tracks/php/exercises/triangle) | [x](./exercism/python/triangle)[*](https://exercism.org/tracks/python/exercises/triangle) | [*](https://exercism.org/tracks/typescript/exercises/triangle) | 1 |
 | vehicle-purchase | [*](https://exercism.org/tracks/delphi/exercises/vehicle-purchase) | [x](./exercism/javascript/vehicle-purchase)[*](https://exercism.org/tracks/javascript/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/php/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/python/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/typescript/exercises/vehicle-purchase) | 1 |
-|  |  |  |  |  |  |  54 |
+|  |  |  |  |  |  |  55 |

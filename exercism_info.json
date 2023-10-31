@@ -76,6 +76,7 @@
     "exercises": [
       "anagram",
       "armstrong-numbers",
+      "bob",
       "darts",
       "dnd-character",
       "hello-world"
