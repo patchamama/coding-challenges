@@ -5,9 +5,9 @@
 | [delphi](https://exercism.org/tracks/delphi) | [1](./exercism/delphi)/76 |
 | [javascript](https://exercism.org/tracks/javascript) | [22](./exercism/javascript)/141 |
 | [php](https://exercism.org/tracks/php) | [6](./exercism/php)/96 |
-| [python](https://exercism.org/tracks/python) | [20](./exercism/python)/138 |
-| [typescript](https://exercism.org/tracks/typescript) | [26](./exercism/typescript)/138 |
-| |75/589 (12.73%)
+| [python](https://exercism.org/tracks/python) | [20](./exercism/python)/139 |
+| [typescript](https://exercism.org/tracks/typescript) | [26](./exercism/typescript)/95 |
+| |75/547 (13.71%)
 
 ## Solutions
 
