@@ -6,8 +6,8 @@
 | [javascript](https://exercism.org/tracks/javascript) | [22](./exercism/javascript)/141 |
 | [php](https://exercism.org/tracks/php) | [6](./exercism/php)/96 |
 | [python](https://exercism.org/tracks/python) | [20](./exercism/python)/139 |
-| [typescript](https://exercism.org/tracks/typescript) | [28](./exercism/typescript)/95 |
-| |77/547 (14.08%)
+| [typescript](https://exercism.org/tracks/typescript) | [29](./exercism/typescript)/95 |
+| |78/547 (14.26%)
 
 ## Solutions
 
@@ -24,6 +24,7 @@
 | darts | [*](https://exercism.org/tracks/delphi/exercises/darts) | [x](./exercism/javascript/darts)[*](https://exercism.org/tracks/javascript/exercises/darts) | [*](https://exercism.org/tracks/php/exercises/darts) | [x](./exercism/python/darts)[*](https://exercism.org/tracks/python/exercises/darts) | [x](./exercism/typescript/darts)[*](https://exercism.org/tracks/typescript/exercises/darts) | 3 |
 | dnd-character | [*](https://exercism.org/tracks/delphi/exercises/dnd-character) | [x](./exercism/javascript/dnd-character)[*](https://exercism.org/tracks/javascript/exercises/dnd-character) | [*](https://exercism.org/tracks/php/exercises/dnd-character) | [*](https://exercism.org/tracks/python/exercises/dnd-character) | [x](./exercism/typescript/dnd-character)[*](https://exercism.org/tracks/typescript/exercises/dnd-character) | 2 |
 | elyses-enchantments | [*](https://exercism.org/tracks/delphi/exercises/elyses-enchantments) | [x](./exercism/javascript/elyses-enchantments)[*](https://exercism.org/tracks/javascript/exercises/elyses-enchantments) | [*](https://exercism.org/tracks/php/exercises/elyses-enchantments) | [*](https://exercism.org/tracks/python/exercises/elyses-enchantments) | [*](https://exercism.org/tracks/typescript/exercises/elyses-enchantments) | 1 |
+| etl | [*](https://exercism.org/tracks/delphi/exercises/etl) | [*](https://exercism.org/tracks/javascript/exercises/etl) | [*](https://exercism.org/tracks/php/exercises/etl) | [*](https://exercism.org/tracks/python/exercises/etl) | [x](./exercism/typescript/etl)[*](https://exercism.org/tracks/typescript/exercises/etl) | 1 |
 | freelancer-rates | [*](https://exercism.org/tracks/delphi/exercises/freelancer-rates) | [x](./exercism/javascript/freelancer-rates)[*](https://exercism.org/tracks/javascript/exercises/freelancer-rates) | [*](https://exercism.org/tracks/php/exercises/freelancer-rates) | [*](https://exercism.org/tracks/python/exercises/freelancer-rates) | [*](https://exercism.org/tracks/typescript/exercises/freelancer-rates) | 1 |
 | ghost-gobble-arcade-game | [*](https://exercism.org/tracks/delphi/exercises/ghost-gobble-arcade-game) | [*](https://exercism.org/tracks/javascript/exercises/ghost-gobble-arcade-game) | [*](https://exercism.org/tracks/php/exercises/ghost-gobble-arcade-game) | [x](./exercism/python/ghost-gobble-arcade-game)[*](https://exercism.org/tracks/python/exercises/ghost-gobble-arcade-game) | [*](https://exercism.org/tracks/typescript/exercises/ghost-gobble-arcade-game) | 1 |
 | gigasecond | [*](https://exercism.org/tracks/delphi/exercises/gigasecond) | [x](./exercism/javascript/gigasecond)[*](https://exercism.org/tracks/javascript/exercises/gigasecond) | [*](https://exercism.org/tracks/php/exercises/gigasecond) | [*](https://exercism.org/tracks/python/exercises/gigasecond) | [x](./exercism/typescript/gigasecond)[*](https://exercism.org/tracks/typescript/exercises/gigasecond) | 2 |
@@ -56,4 +57,4 @@
 | triangle | [*](https://exercism.org/tracks/delphi/exercises/triangle) | [*](https://exercism.org/tracks/javascript/exercises/triangle) | [*](https://exercism.org/tracks/php/exercises/triangle) | [x](./exercism/python/triangle)[*](https://exercism.org/tracks/python/exercises/triangle) | [x](./exercism/typescript/triangle)[*](https://exercism.org/tracks/typescript/exercises/triangle) | 2 |
 | two-fer | [*](https://exercism.org/tracks/delphi/exercises/two-fer) | [*](https://exercism.org/tracks/javascript/exercises/two-fer) | [*](https://exercism.org/tracks/php/exercises/two-fer) | [*](https://exercism.org/tracks/python/exercises/two-fer) | [x](./exercism/typescript/two-fer)[*](https://exercism.org/tracks/typescript/exercises/two-fer) | 1 |
 | vehicle-purchase | [*](https://exercism.org/tracks/delphi/exercises/vehicle-purchase) | [x](./exercism/javascript/vehicle-purchase)[*](https://exercism.org/tracks/javascript/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/php/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/python/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/typescript/exercises/vehicle-purchase) | 1 |
-|  |  |  |  |  |  |  77 |
+|  |  |  |  |  |  |  78 |
