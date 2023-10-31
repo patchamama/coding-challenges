@@ -12,8 +12,8 @@ This repository contains a collection of challenges that I have solved.
 | [javascript](https://exercism.org/tracks/javascript) | [22](./exercism/javascript)/141 |
 | [php](https://exercism.org/tracks/php) | [6](./exercism/php)/96 |
 | [python](https://exercism.org/tracks/python) | [20](./exercism/python)/139 |
-| [typescript](https://exercism.org/tracks/typescript) | [27](./exercism/typescript)/95 |
-| |76/547 (13.89%)
+| [typescript](https://exercism.org/tracks/typescript) | [28](./exercism/typescript)/95 |
+| |77/547 (14.08%)
 
 ## Solutions
 
@@ -49,6 +49,7 @@ This repository contains a collection of challenges that I have solved.
 | pig-latin | [*](https://exercism.org/tracks/delphi/exercises/pig-latin) | [x](./exercism/javascript/pig-latin)[*](https://exercism.org/tracks/javascript/exercises/pig-latin) | [x](./exercism/php/pig-latin)[*](https://exercism.org/tracks/php/exercises/pig-latin) | [x](./exercism/python/pig-latin)[*](https://exercism.org/tracks/python/exercises/pig-latin) | [x](./exercism/typescript/pig-latin)[*](https://exercism.org/tracks/typescript/exercises/pig-latin) | 4 |
 | poetry-club-door-policy | [*](https://exercism.org/tracks/delphi/exercises/poetry-club-door-policy) | [x](./exercism/javascript/poetry-club-door-policy)[*](https://exercism.org/tracks/javascript/exercises/poetry-club-door-policy) | [*](https://exercism.org/tracks/php/exercises/poetry-club-door-policy) | [*](https://exercism.org/tracks/python/exercises/poetry-club-door-policy) | [*](https://exercism.org/tracks/typescript/exercises/poetry-club-door-policy) | 1 |
 | prime-factors | [*](https://exercism.org/tracks/delphi/exercises/prime-factors) | [x](./exercism/javascript/prime-factors)[*](https://exercism.org/tracks/javascript/exercises/prime-factors) | [*](https://exercism.org/tracks/php/exercises/prime-factors) | [*](https://exercism.org/tracks/python/exercises/prime-factors) | [x](./exercism/typescript/prime-factors)[*](https://exercism.org/tracks/typescript/exercises/prime-factors) | 2 |
+| protein-translation | [*](https://exercism.org/tracks/delphi/exercises/protein-translation) | [*](https://exercism.org/tracks/javascript/exercises/protein-translation) | [*](https://exercism.org/tracks/php/exercises/protein-translation) | [*](https://exercism.org/tracks/python/exercises/protein-translation) | [x](./exercism/typescript/protein-translation)[*](https://exercism.org/tracks/typescript/exercises/protein-translation) | 1 |
 | raindrops | [*](https://exercism.org/tracks/delphi/exercises/raindrops) | [x](./exercism/javascript/raindrops)[*](https://exercism.org/tracks/javascript/exercises/raindrops) | [*](https://exercism.org/tracks/php/exercises/raindrops) | [x](./exercism/python/raindrops)[*](https://exercism.org/tracks/python/exercises/raindrops) | [x](./exercism/typescript/raindrops)[*](https://exercism.org/tracks/typescript/exercises/raindrops) | 3 |
 | resistor-color | [*](https://exercism.org/tracks/delphi/exercises/resistor-color) | [*](https://exercism.org/tracks/javascript/exercises/resistor-color) | [*](https://exercism.org/tracks/php/exercises/resistor-color) | [*](https://exercism.org/tracks/python/exercises/resistor-color) | [x](./exercism/typescript/resistor-color)[*](https://exercism.org/tracks/typescript/exercises/resistor-color) | 1 |
 | resistor-color-duo | [*](https://exercism.org/tracks/delphi/exercises/resistor-color-duo) | [*](https://exercism.org/tracks/javascript/exercises/resistor-color-duo) | [*](https://exercism.org/tracks/php/exercises/resistor-color-duo) | [*](https://exercism.org/tracks/python/exercises/resistor-color-duo) | [x](./exercism/typescript/resistor-color-duo)[*](https://exercism.org/tracks/typescript/exercises/resistor-color-duo) | 1 |
@@ -61,7 +62,7 @@ This repository contains a collection of challenges that I have solved.
 | triangle | [*](https://exercism.org/tracks/delphi/exercises/triangle) | [*](https://exercism.org/tracks/javascript/exercises/triangle) | [*](https://exercism.org/tracks/php/exercises/triangle) | [x](./exercism/python/triangle)[*](https://exercism.org/tracks/python/exercises/triangle) | [x](./exercism/typescript/triangle)[*](https://exercism.org/tracks/typescript/exercises/triangle) | 2 |
 | two-fer | [*](https://exercism.org/tracks/delphi/exercises/two-fer) | [*](https://exercism.org/tracks/javascript/exercises/two-fer) | [*](https://exercism.org/tracks/php/exercises/two-fer) | [*](https://exercism.org/tracks/python/exercises/two-fer) | [x](./exercism/typescript/two-fer)[*](https://exercism.org/tracks/typescript/exercises/two-fer) | 1 |
 | vehicle-purchase | [*](https://exercism.org/tracks/delphi/exercises/vehicle-purchase) | [x](./exercism/javascript/vehicle-purchase)[*](https://exercism.org/tracks/javascript/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/php/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/python/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/typescript/exercises/vehicle-purchase) | 1 |
-|  |  |  |  |  |  |  76 |
+|  |  |  |  |  |  |  77 |
 
 ---
 
