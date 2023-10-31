@@ -34,6 +34,7 @@
   },
   "php": {
     "exercises": [
+      "armstrong-numbers",
       "hello-world",
       "lasagna",
       "pascals-triangle",

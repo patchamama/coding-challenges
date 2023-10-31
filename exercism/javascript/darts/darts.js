@@ -5,7 +5,7 @@
 
 export const score = (x, y) => {
   var result = 0;
-  var rad = Math.sqrt(x ** 2 + y ** 2);
+  var rad = (x === 0) ? Math.abs(y) : (y === 0) ? Math.abs(x) : Math.sqrt(x ** 2 + y ** 2);
 
   if (rad > 5 && rad <= 10) {
     result = 1;
