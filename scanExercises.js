@@ -1,6 +1,11 @@
 const fs = require('fs')
 const path = require('path')
 
+const axios = require('axios')
+const http = require('http')
+
+const { exec } = require('child_process')
+
 // Source of exercises
 const source = process.argv[2] || 'exercism'
 
@@ -37,6 +42,49 @@ function scanDirectory(directoryPath) {
   return result
 }
 
+function exerciseExist(languagePath, url) {
+  let fileNotFound = languagePath + '_notExist'
+  // exec(`rm ${fileNotFound}`)
+
+  // return true
+
+  if (fs.existsSync(fileNotFound)) {
+    return false
+  }
+
+  destinationFile = 'tmp.txt'
+  return new Promise((resolve, reject) => {
+    // Execute the wget command to download the file.
+    console.log(url)
+    exec(`wget -O ${destinationFile} ${url}`, (error) => {
+      exec(`rm ${destinationFile}`)
+      if (error) {
+        // There was an error running the wget command, so the file doesn't exist.
+        //console.log('Error: ', error)
+        console.log('Not exist:', url, ' file created:', fileNotFound)
+        fs.writeFile(fileNotFound, '', (error) => {})
+        resolve(false)
+      } else {
+        resolve(true)
+      }
+      // else {
+      //   // Check if the file exists in the file system.
+      //   fs.access(destinationFile, fs.constants.F_OK, (err) => {
+      //     if (err) {
+      //       // The file does not exist.
+      //       console.log('Not exist2:', url, fileNotFound)
+      //       resolve(false)
+      //     } else {
+      //       // The file exists.
+      //       exec(`rm LICENSE`)
+      //       resolve(true)
+      //     }
+      //   })
+      // }
+    })
+  })
+}
+
 function generateMarkdownTable(exercismInfo) {
   let markdown = ''
   let language
@@ -46,6 +94,13 @@ function generateMarkdownTable(exercismInfo) {
     php: 96,
     python: 139,
     typescript: 95,
+  }
+  const extension = {
+    delphi: '.pas',
+    javascript: '.js',
+    php: '.php',
+    python: '.py',
+    typescript: '.ts',
   }
 
   markdown += `## [${
@@ -102,9 +157,17 @@ function generateMarkdownTable(exercismInfo) {
     count = 0
     for (const language in exercismInfo) {
       const languagePath = path.join('exercism', language, exercise)
+      // exerciseExist(
+      //   languagePath,
+      //   `https://raw.githubusercontent.com/exercism/${language}/main/exercises/practice/${exercise}/${exercise}${extension[language]}`
+      // )
+      let fileNotFound = languagePath + '_notExist'
+
       const link = fs.existsSync(languagePath)
         ? `[x](./exercism/${language}/${exercise})[*](https://exercism.org/tracks/${language}/exercises/${exercise})`
-        : `[*](https://exercism.org/tracks/${language}/exercises/${exercise})`
+        : !fs.existsSync(fileNotFound)
+        ? `[*](https://exercism.org/tracks/${language}/exercises/${exercise})`
+        : ''
       markdown += ` ${link} |`
       count += link.includes('[x]') ? 1 : 0
     }
