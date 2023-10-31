@@ -92,7 +92,8 @@
       "prime-factors",
       "raindrops",
       "reverse-string",
-      "saddle-points"
+      "saddle-points",
+      "transpose"
     ],
     "others": []
   }
