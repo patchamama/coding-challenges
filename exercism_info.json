@@ -84,7 +84,8 @@
       "grains",
       "hello-world",
       "leap",
-      "matching-brackets"
+      "matching-brackets",
+      "pangram"
     ],
     "others": []
   }
