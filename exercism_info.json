@@ -86,7 +86,8 @@
       "leap",
       "matching-brackets",
       "pangram",
-      "pascals-triangle"
+      "pascals-triangle",
+      "perfect-numbers"
     ],
     "others": []
   }
