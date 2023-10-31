@@ -90,7 +90,8 @@
       "perfect-numbers",
       "pig-latin",
       "prime-factors",
-      "raindrops"
+      "raindrops",
+      "reverse-string"
     ],
     "others": []
   }
