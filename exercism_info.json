@@ -76,6 +76,7 @@
     "exercises": [
       "anagram",
       "armstrong-numbers",
+      "darts",
       "hello-world"
     ],
     "others": []
