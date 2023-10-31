@@ -37,7 +37,8 @@
       "hello-world",
       "lasagna",
       "pascals-triangle",
-      "perfect-numbers"
+      "perfect-numbers",
+      "pig-latin"
     ],
     "others": [
       ".phpunit.result.cache",

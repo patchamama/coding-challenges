@@ -4,10 +4,10 @@
 |  --- | --- |
 | [delphi](https://exercism.org/tracks/delphi) | [1](./exercism/delphi)/76 |
 | [javascript](https://exercism.org/tracks/javascript) | [22](./exercism/javascript)/141 |
-| [php](https://exercism.org/tracks/php) | [4](./exercism/php)/96 |
+| [php](https://exercism.org/tracks/php) | [5](./exercism/php)/96 |
 | [python](https://exercism.org/tracks/python) | [20](./exercism/python)/138 |
 | [typescript](https://exercism.org/tracks/typescript) | [1](./exercism/typescript)/138 |
-| |48/589 (8.15%)
+| |49/589 (8.32%)
 
 ## Solutions
 
@@ -40,7 +40,7 @@
 | pangram | [*](https://exercism.org/tracks/delphi/exercises/pangram) | [*](https://exercism.org/tracks/javascript/exercises/pangram) | [*](https://exercism.org/tracks/php/exercises/pangram) | [x](./exercism/python/pangram)[*](https://exercism.org/tracks/python/exercises/pangram) | [*](https://exercism.org/tracks/typescript/exercises/pangram) | 1 |
 | pascals-triangle | [*](https://exercism.org/tracks/delphi/exercises/pascals-triangle) | [x](./exercism/javascript/pascals-triangle)[*](https://exercism.org/tracks/javascript/exercises/pascals-triangle) | [x](./exercism/php/pascals-triangle)[*](https://exercism.org/tracks/php/exercises/pascals-triangle) | [*](https://exercism.org/tracks/python/exercises/pascals-triangle) | [*](https://exercism.org/tracks/typescript/exercises/pascals-triangle) | 2 |
 | perfect-numbers | [*](https://exercism.org/tracks/delphi/exercises/perfect-numbers) | [*](https://exercism.org/tracks/javascript/exercises/perfect-numbers) | [x](./exercism/php/perfect-numbers)[*](https://exercism.org/tracks/php/exercises/perfect-numbers) | [x](./exercism/python/perfect-numbers)[*](https://exercism.org/tracks/python/exercises/perfect-numbers) | [*](https://exercism.org/tracks/typescript/exercises/perfect-numbers) | 2 |
-| pig-latin | [*](https://exercism.org/tracks/delphi/exercises/pig-latin) | [x](./exercism/javascript/pig-latin)[*](https://exercism.org/tracks/javascript/exercises/pig-latin) | [*](https://exercism.org/tracks/php/exercises/pig-latin) | [x](./exercism/python/pig-latin)[*](https://exercism.org/tracks/python/exercises/pig-latin) | [*](https://exercism.org/tracks/typescript/exercises/pig-latin) | 2 |
+| pig-latin | [*](https://exercism.org/tracks/delphi/exercises/pig-latin) | [x](./exercism/javascript/pig-latin)[*](https://exercism.org/tracks/javascript/exercises/pig-latin) | [x](./exercism/php/pig-latin)[*](https://exercism.org/tracks/php/exercises/pig-latin) | [x](./exercism/python/pig-latin)[*](https://exercism.org/tracks/python/exercises/pig-latin) | [*](https://exercism.org/tracks/typescript/exercises/pig-latin) | 3 |
 | poetry-club-door-policy | [*](https://exercism.org/tracks/delphi/exercises/poetry-club-door-policy) | [x](./exercism/javascript/poetry-club-door-policy)[*](https://exercism.org/tracks/javascript/exercises/poetry-club-door-policy) | [*](https://exercism.org/tracks/php/exercises/poetry-club-door-policy) | [*](https://exercism.org/tracks/python/exercises/poetry-club-door-policy) | [*](https://exercism.org/tracks/typescript/exercises/poetry-club-door-policy) | 1 |
 | prime-factors | [*](https://exercism.org/tracks/delphi/exercises/prime-factors) | [x](./exercism/javascript/prime-factors)[*](https://exercism.org/tracks/javascript/exercises/prime-factors) | [*](https://exercism.org/tracks/php/exercises/prime-factors) | [*](https://exercism.org/tracks/python/exercises/prime-factors) | [*](https://exercism.org/tracks/typescript/exercises/prime-factors) | 1 |
 | raindrops | [*](https://exercism.org/tracks/delphi/exercises/raindrops) | [x](./exercism/javascript/raindrops)[*](https://exercism.org/tracks/javascript/exercises/raindrops) | [*](https://exercism.org/tracks/php/exercises/raindrops) | [x](./exercism/python/raindrops)[*](https://exercism.org/tracks/python/exercises/raindrops) | [*](https://exercism.org/tracks/typescript/exercises/raindrops) | 2 |
@@ -49,4 +49,4 @@
 | transpose | [*](https://exercism.org/tracks/delphi/exercises/transpose) | [x](./exercism/javascript/transpose)[*](https://exercism.org/tracks/javascript/exercises/transpose) | [*](https://exercism.org/tracks/php/exercises/transpose) | [*](https://exercism.org/tracks/python/exercises/transpose) | [*](https://exercism.org/tracks/typescript/exercises/transpose) | 1 |
 | triangle | [*](https://exercism.org/tracks/delphi/exercises/triangle) | [*](https://exercism.org/tracks/javascript/exercises/triangle) | [*](https://exercism.org/tracks/php/exercises/triangle) | [x](./exercism/python/triangle)[*](https://exercism.org/tracks/python/exercises/triangle) | [*](https://exercism.org/tracks/typescript/exercises/triangle) | 1 |
 | vehicle-purchase | [*](https://exercism.org/tracks/delphi/exercises/vehicle-purchase) | [x](./exercism/javascript/vehicle-purchase)[*](https://exercism.org/tracks/javascript/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/php/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/python/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/typescript/exercises/vehicle-purchase) | 1 |
-|  |  |  |  |  |  |  48 |
+|  |  |  |  |  |  |  49 |
