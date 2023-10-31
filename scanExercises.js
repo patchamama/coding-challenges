@@ -51,13 +51,13 @@ function exerciseExist(languagePath, url) {
   destinationFile = 'tmp.txt'
   return new Promise((resolve, reject) => {
     // Execute the wget command to download the file.
-    console.log(url)
+    // console.log(url)
     exec(`wget -O ${destinationFile} ${url}`, (error) => {
       exec(`rm ${destinationFile}`)
       if (error) {
         // There was an error running the wget command, so the file doesn't exist.
         //console.log('Error: ', error)
-        console.log('Not exist:', url, ' file created:', fileNotFound)
+        // console.log('Not exist:', url, ' file created:', fileNotFound)
         fs.writeFile(fileNotFound, '', (error) => {})
         resolve(false)
       } else {
@@ -153,17 +153,17 @@ function generateMarkdownTable(exercismInfo) {
     count = 0
     for (const language in exercismInfo) {
       const languagePath = path.join('exercism', language, exercise)
-      // exerciseExist(
-      //   languagePath,
-      //   `https://raw.githubusercontent.com/exercism/${language}/main/exercises/practice/${exercise}/${exercise}${extension[language]}`
-      // )
+      exerciseExist(
+        languagePath,
+        `https://raw.githubusercontent.com/exercism/${language}/main/exercises/practice/${exercise}/${exercise}${extension[language]}`
+      )
       let fileNotFound = languagePath + '_notExist'
 
       const link = fs.existsSync(languagePath)
         ? `[x](./exercism/${language}/${exercise})[*](https://exercism.org/tracks/${language}/exercises/${exercise})`
         : !fs.existsSync(fileNotFound)
         ? `[*](https://exercism.org/tracks/${language}/exercises/${exercise})`
-        : ''
+        : `[?](https://exercism.org/tracks/${language}/exercises/${exercise})`
       markdown += ` ${link} |`
       count += link.includes('[x]') ? 1 : 0
     }
