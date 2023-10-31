@@ -8,8 +8,9 @@ git push
 
 # Regenerate the markdown table of statistics
 node scanExercises.js exercism
+cat 1.txt exercism_info.md 2.txt > README.md
 git add .
-git commit -m "exercism_info.md Stats. updated"
+git commit -m "docs: README.md and exercism_info.md Stats. updated"
 git push
 exit
 
@@ -26,4 +27,4 @@ examples:
  bash exercism-upd.sh php lasagna
        exercism download --exercise=lasagna --track=php
 
-exercism download --exercise=triangle --track=typescript
+exercism download --exercise=two-fer --track=typescript
