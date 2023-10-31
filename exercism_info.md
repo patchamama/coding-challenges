@@ -6,8 +6,8 @@
 | [javascript](https://exercism.org/tracks/javascript) | [22](./exercism/javascript)/141 |
 | [php](https://exercism.org/tracks/php) | [6](./exercism/php)/96 |
 | [python](https://exercism.org/tracks/python) | [20](./exercism/python)/138 |
-| [typescript](https://exercism.org/tracks/typescript) | [7](./exercism/typescript)/138 |
-| |56/589 (9.51%)
+| [typescript](https://exercism.org/tracks/typescript) | [8](./exercism/typescript)/138 |
+| |57/589 (9.68%)
 
 ## Solutions
 
@@ -26,7 +26,7 @@
 | elyses-enchantments | [*](https://exercism.org/tracks/delphi/exercises/elyses-enchantments) | [x](./exercism/javascript/elyses-enchantments)[*](https://exercism.org/tracks/javascript/exercises/elyses-enchantments) | [*](https://exercism.org/tracks/php/exercises/elyses-enchantments) | [*](https://exercism.org/tracks/python/exercises/elyses-enchantments) | [*](https://exercism.org/tracks/typescript/exercises/elyses-enchantments) | 1 |
 | freelancer-rates | [*](https://exercism.org/tracks/delphi/exercises/freelancer-rates) | [x](./exercism/javascript/freelancer-rates)[*](https://exercism.org/tracks/javascript/exercises/freelancer-rates) | [*](https://exercism.org/tracks/php/exercises/freelancer-rates) | [*](https://exercism.org/tracks/python/exercises/freelancer-rates) | [*](https://exercism.org/tracks/typescript/exercises/freelancer-rates) | 1 |
 | ghost-gobble-arcade-game | [*](https://exercism.org/tracks/delphi/exercises/ghost-gobble-arcade-game) | [*](https://exercism.org/tracks/javascript/exercises/ghost-gobble-arcade-game) | [*](https://exercism.org/tracks/php/exercises/ghost-gobble-arcade-game) | [x](./exercism/python/ghost-gobble-arcade-game)[*](https://exercism.org/tracks/python/exercises/ghost-gobble-arcade-game) | [*](https://exercism.org/tracks/typescript/exercises/ghost-gobble-arcade-game) | 1 |
-| gigasecond | [*](https://exercism.org/tracks/delphi/exercises/gigasecond) | [x](./exercism/javascript/gigasecond)[*](https://exercism.org/tracks/javascript/exercises/gigasecond) | [*](https://exercism.org/tracks/php/exercises/gigasecond) | [*](https://exercism.org/tracks/python/exercises/gigasecond) | [*](https://exercism.org/tracks/typescript/exercises/gigasecond) | 1 |
+| gigasecond | [*](https://exercism.org/tracks/delphi/exercises/gigasecond) | [x](./exercism/javascript/gigasecond)[*](https://exercism.org/tracks/javascript/exercises/gigasecond) | [*](https://exercism.org/tracks/php/exercises/gigasecond) | [*](https://exercism.org/tracks/python/exercises/gigasecond) | [x](./exercism/typescript/gigasecond)[*](https://exercism.org/tracks/typescript/exercises/gigasecond) | 2 |
 | grains | [*](https://exercism.org/tracks/delphi/exercises/grains) | [*](https://exercism.org/tracks/javascript/exercises/grains) | [*](https://exercism.org/tracks/php/exercises/grains) | [x](./exercism/python/grains)[*](https://exercism.org/tracks/python/exercises/grains) | [*](https://exercism.org/tracks/typescript/exercises/grains) | 1 |
 | guidos-gorgeous-lasagna | [*](https://exercism.org/tracks/delphi/exercises/guidos-gorgeous-lasagna) | [*](https://exercism.org/tracks/javascript/exercises/guidos-gorgeous-lasagna) | [*](https://exercism.org/tracks/php/exercises/guidos-gorgeous-lasagna) | [x](./exercism/python/guidos-gorgeous-lasagna)[*](https://exercism.org/tracks/python/exercises/guidos-gorgeous-lasagna) | [*](https://exercism.org/tracks/typescript/exercises/guidos-gorgeous-lasagna) | 1 |
 | hello-world | [x](./exercism/delphi/hello-world)[*](https://exercism.org/tracks/delphi/exercises/hello-world) | [x](./exercism/javascript/hello-world)[*](https://exercism.org/tracks/javascript/exercises/hello-world) | [x](./exercism/php/hello-world)[*](https://exercism.org/tracks/php/exercises/hello-world) | [x](./exercism/python/hello-world)[*](https://exercism.org/tracks/python/exercises/hello-world) | [x](./exercism/typescript/hello-world)[*](https://exercism.org/tracks/typescript/exercises/hello-world) | 5 |
@@ -49,4 +49,4 @@
 | transpose | [*](https://exercism.org/tracks/delphi/exercises/transpose) | [x](./exercism/javascript/transpose)[*](https://exercism.org/tracks/javascript/exercises/transpose) | [*](https://exercism.org/tracks/php/exercises/transpose) | [*](https://exercism.org/tracks/python/exercises/transpose) | [*](https://exercism.org/tracks/typescript/exercises/transpose) | 1 |
 | triangle | [*](https://exercism.org/tracks/delphi/exercises/triangle) | [*](https://exercism.org/tracks/javascript/exercises/triangle) | [*](https://exercism.org/tracks/php/exercises/triangle) | [x](./exercism/python/triangle)[*](https://exercism.org/tracks/python/exercises/triangle) | [*](https://exercism.org/tracks/typescript/exercises/triangle) | 1 |
 | vehicle-purchase | [*](https://exercism.org/tracks/delphi/exercises/vehicle-purchase) | [x](./exercism/javascript/vehicle-purchase)[*](https://exercism.org/tracks/javascript/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/php/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/python/exercises/vehicle-purchase) | [*](https://exercism.org/tracks/typescript/exercises/vehicle-purchase) | 1 |
-|  |  |  |  |  |  |  56 |
+|  |  |  |  |  |  |  57 |
