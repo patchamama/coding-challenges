@@ -26,4 +26,4 @@ examples:
  bash exercism-upd.sh php lasagna
        exercism download --exercise=lasagna --track=php
 
-exercism download --exercise=bob --track=typescript
+exercism download --exercise=pig-latin --track=typescript
