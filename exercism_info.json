@@ -132,6 +132,7 @@
       "black-jack_notExist",
       "collatz-conjecture_notExist",
       "currency-exchange_notExist",
+      "difference-of-squares_notExist",
       "dnd-character_notExist",
       "elyses-enchantments_notExist",
       "freelancer-rates_notExist",
@@ -193,7 +194,8 @@
       "space-age",
       "transpose",
       "triangle",
-      "two-fer"
+      "two-fer",
+      "word-count"
     ],
     "others": [
       "annalyns-infiltration_notExist",
