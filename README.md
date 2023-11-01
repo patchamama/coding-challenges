@@ -12,8 +12,8 @@ This repository contains a collection of challenges that I have solved.
 | [javascript](https://exercism.org/tracks/javascript) | [22](./exercism/javascript)/141 |
 | [php](https://exercism.org/tracks/php) | [6](./exercism/php)/96 |
 | [python](https://exercism.org/tracks/python) | [20](./exercism/python)/139 |
-| [typescript](https://exercism.org/tracks/typescript) | [32](./exercism/typescript)/95 |
-| |81/547 (14.81%)
+| [typescript](https://exercism.org/tracks/typescript) | [33](./exercism/typescript)/95 |
+| |82/547 (14.99%)
 
 ## Solutions
 
@@ -39,6 +39,7 @@ This repository contains a collection of challenges that I have solved.
 | guidos-gorgeous-lasagna | [-](https://exercism.org/tracks/delphi/exercises/guidos-gorgeous-lasagna) | [-](https://exercism.org/tracks/javascript/exercises/guidos-gorgeous-lasagna) | [-](https://exercism.org/tracks/php/exercises/guidos-gorgeous-lasagna) | [x](./exercism/python/guidos-gorgeous-lasagna)[*](https://exercism.org/tracks/python/exercises/guidos-gorgeous-lasagna) | [-](https://exercism.org/tracks/typescript/exercises/guidos-gorgeous-lasagna) | 1 |
 | hamming | [*](https://exercism.org/tracks/delphi/exercises/hamming) | [*](https://exercism.org/tracks/javascript/exercises/hamming) | [*](https://exercism.org/tracks/php/exercises/hamming) | [*](https://exercism.org/tracks/python/exercises/hamming) | [x](./exercism/typescript/hamming)[*](https://exercism.org/tracks/typescript/exercises/hamming) | 1 |
 | hello-world | [x](./exercism/delphi/hello-world)[*](https://exercism.org/tracks/delphi/exercises/hello-world) | [x](./exercism/javascript/hello-world)[*](https://exercism.org/tracks/javascript/exercises/hello-world) | [x](./exercism/php/hello-world)[*](https://exercism.org/tracks/php/exercises/hello-world) | [x](./exercism/python/hello-world)[*](https://exercism.org/tracks/python/exercises/hello-world) | [x](./exercism/typescript/hello-world)[*](https://exercism.org/tracks/typescript/exercises/hello-world) | 5 |
+| isogram | [*](https://exercism.org/tracks/delphi/exercises/isogram) | [*](https://exercism.org/tracks/javascript/exercises/isogram) | [*](https://exercism.org/tracks/php/exercises/isogram) | [*](https://exercism.org/tracks/python/exercises/isogram) | [x](./exercism/typescript/isogram)[*](https://exercism.org/tracks/typescript/exercises/isogram) | 1 |
 | lasagna | [-](https://exercism.org/tracks/delphi/exercises/lasagna) | [x](./exercism/javascript/lasagna)[*](https://exercism.org/tracks/javascript/exercises/lasagna) | [x](./exercism/php/lasagna)[*](https://exercism.org/tracks/php/exercises/lasagna) | [-](https://exercism.org/tracks/python/exercises/lasagna) | [-](https://exercism.org/tracks/typescript/exercises/lasagna) | 2 |
 | leap | [*](https://exercism.org/tracks/delphi/exercises/leap) | [x](./exercism/javascript/leap)[*](https://exercism.org/tracks/javascript/exercises/leap) | [*](https://exercism.org/tracks/php/exercises/leap) | [x](./exercism/python/leap)[*](https://exercism.org/tracks/python/exercises/leap) | [x](./exercism/typescript/leap)[*](https://exercism.org/tracks/typescript/exercises/leap) | 3 |
 | little-sisters-essay | [-](https://exercism.org/tracks/delphi/exercises/little-sisters-essay) | [-](https://exercism.org/tracks/javascript/exercises/little-sisters-essay) | [-](https://exercism.org/tracks/php/exercises/little-sisters-essay) | [x](./exercism/python/little-sisters-essay)[*](https://exercism.org/tracks/python/exercises/little-sisters-essay) | [-](https://exercism.org/tracks/typescript/exercises/little-sisters-essay) | 1 |
@@ -66,7 +67,7 @@ This repository contains a collection of challenges that I have solved.
 | two-fer | [-](https://exercism.org/tracks/delphi/exercises/two-fer) | [*](https://exercism.org/tracks/javascript/exercises/two-fer) | [*](https://exercism.org/tracks/php/exercises/two-fer) | [-](https://exercism.org/tracks/python/exercises/two-fer) | [x](./exercism/typescript/two-fer)[*](https://exercism.org/tracks/typescript/exercises/two-fer) | 1 |
 | vehicle-purchase | [-](https://exercism.org/tracks/delphi/exercises/vehicle-purchase) | [x](./exercism/javascript/vehicle-purchase)[*](https://exercism.org/tracks/javascript/exercises/vehicle-purchase) | [-](https://exercism.org/tracks/php/exercises/vehicle-purchase) | [-](https://exercism.org/tracks/python/exercises/vehicle-purchase) | [-](https://exercism.org/tracks/typescript/exercises/vehicle-purchase) | 1 |
 | word-count | [*](https://exercism.org/tracks/delphi/exercises/word-count) | [*](https://exercism.org/tracks/javascript/exercises/word-count) | [*](https://exercism.org/tracks/php/exercises/word-count) | [-](https://exercism.org/tracks/python/exercises/word-count) | [x](./exercism/typescript/word-count)[*](https://exercism.org/tracks/typescript/exercises/word-count) | 1 |
-|  |  |  |  |  |  |  81 |
+|  |  |  |  |  |  |  82 |
 
 ---
 

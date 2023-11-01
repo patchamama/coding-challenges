@@ -177,6 +177,7 @@
       "grains",
       "hamming",
       "hello-world",
+      "isogram",
       "leap",
       "matching-brackets",
       "pangram",
