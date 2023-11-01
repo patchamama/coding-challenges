@@ -156,6 +156,7 @@
       "resistor-color_notExist",
       "reverse-string_notExist",
       "rna-transcription_notExist",
+      "roman-numerals_notExist",
       "saddle-points_notExist",
       "space-age_notExist",
       "two-fer_notExist",
@@ -165,6 +166,7 @@
   },
   "typescript": {
     "exercises": [
+      "acronym",
       "anagram",
       "armstrong-numbers",
       "bob",
