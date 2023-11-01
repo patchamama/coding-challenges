@@ -159,7 +159,8 @@
       "saddle-points_notExist",
       "space-age_notExist",
       "two-fer_notExist",
-      "vehicle-purchase_notExist"
+      "vehicle-purchase_notExist",
+      "word-count_notExist"
     ]
   },
   "typescript": {
