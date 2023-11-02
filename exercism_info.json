@@ -23,6 +23,7 @@
       "poetry-club-door-policy_notExist",
       "resistor-color-duo_notExist",
       "resistor-color-trio_notExist",
+      "run-length-encoding_notExist",
       "transpose_notExist",
       "two-fer_notExist",
       "vehicle-purchase_notExist"
@@ -157,6 +158,7 @@
       "reverse-string_notExist",
       "rna-transcription_notExist",
       "roman-numerals_notExist",
+      "run-length-encoding_notExist",
       "saddle-points_notExist",
       "space-age_notExist",
       "two-fer_notExist",
@@ -197,6 +199,7 @@
       "roman-numerals",
       "run-length-encoding",
       "saddle-points",
+      "series",
       "space-age",
       "transpose",
       "triangle",
