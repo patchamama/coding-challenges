@@ -6,8 +6,8 @@
 | [javascript](https://exercism.org/tracks/javascript) | [22](./exercism/javascript)/141 |
 | [php](https://exercism.org/tracks/php) | [6](./exercism/php)/96 |
 | [python](https://exercism.org/tracks/python) | [20](./exercism/python)/139 |
-| [typescript](https://exercism.org/tracks/typescript) | [38](./exercism/typescript)/95 |
-| |87/547 (15.90%)
+| [typescript](https://exercism.org/tracks/typescript) | [39](./exercism/typescript)/95 |
+| |88/547 (16.09%)
 
 ## Solutions
 
@@ -56,6 +56,7 @@
 | resistor-color-trio | [-](https://exercism.org/tracks/delphi/exercises/resistor-color-trio) | [*](https://exercism.org/tracks/javascript/exercises/resistor-color-trio) | [*](https://exercism.org/tracks/php/exercises/resistor-color-trio) | [-](https://exercism.org/tracks/python/exercises/resistor-color-trio) | [x](./exercism/typescript/resistor-color-trio)[*](https://exercism.org/tracks/typescript/exercises/resistor-color-trio) | 1 |
 | reverse-string | [*](https://exercism.org/tracks/delphi/exercises/reverse-string) | [*](https://exercism.org/tracks/javascript/exercises/reverse-string) | [*](https://exercism.org/tracks/php/exercises/reverse-string) | [x](./exercism/python/reverse-string)[*](https://exercism.org/tracks/python/exercises/reverse-string) | [x](./exercism/typescript/reverse-string)[*](https://exercism.org/tracks/typescript/exercises/reverse-string) | 2 |
 | rna-transcription | [*](https://exercism.org/tracks/delphi/exercises/rna-transcription) | [*](https://exercism.org/tracks/javascript/exercises/rna-transcription) | [*](https://exercism.org/tracks/php/exercises/rna-transcription) | [-](https://exercism.org/tracks/python/exercises/rna-transcription) | [x](./exercism/typescript/rna-transcription)[*](https://exercism.org/tracks/typescript/exercises/rna-transcription) | 1 |
+| robot-name | [*](https://exercism.org/tracks/delphi/exercises/robot-name) | [*](https://exercism.org/tracks/javascript/exercises/robot-name) | [*](https://exercism.org/tracks/php/exercises/robot-name) | [*](https://exercism.org/tracks/python/exercises/robot-name) | [x](./exercism/typescript/robot-name)[*](https://exercism.org/tracks/typescript/exercises/robot-name) | 1 |
 | roman-numerals | [*](https://exercism.org/tracks/delphi/exercises/roman-numerals) | [*](https://exercism.org/tracks/javascript/exercises/roman-numerals) | [*](https://exercism.org/tracks/php/exercises/roman-numerals) | [-](https://exercism.org/tracks/python/exercises/roman-numerals) | [x](./exercism/typescript/roman-numerals)[*](https://exercism.org/tracks/typescript/exercises/roman-numerals) | 1 |
 | run-length-encoding | [-](https://exercism.org/tracks/delphi/exercises/run-length-encoding) | [*](https://exercism.org/tracks/javascript/exercises/run-length-encoding) | [*](https://exercism.org/tracks/php/exercises/run-length-encoding) | [-](https://exercism.org/tracks/python/exercises/run-length-encoding) | [x](./exercism/typescript/run-length-encoding)[*](https://exercism.org/tracks/typescript/exercises/run-length-encoding) | 1 |
 | saddle-points | [*](https://exercism.org/tracks/delphi/exercises/saddle-points) | [x](./exercism/javascript/saddle-points)[*](https://exercism.org/tracks/javascript/exercises/saddle-points) | [-](https://exercism.org/tracks/php/exercises/saddle-points) | [-](https://exercism.org/tracks/python/exercises/saddle-points) | [x](./exercism/typescript/saddle-points)[*](https://exercism.org/tracks/typescript/exercises/saddle-points) | 2 |
@@ -66,4 +67,4 @@
 | two-fer | [-](https://exercism.org/tracks/delphi/exercises/two-fer) | [*](https://exercism.org/tracks/javascript/exercises/two-fer) | [*](https://exercism.org/tracks/php/exercises/two-fer) | [-](https://exercism.org/tracks/python/exercises/two-fer) | [x](./exercism/typescript/two-fer)[*](https://exercism.org/tracks/typescript/exercises/two-fer) | 1 |
 | vehicle-purchase | [-](https://exercism.org/tracks/delphi/exercises/vehicle-purchase) | [x](./exercism/javascript/vehicle-purchase)[*](https://exercism.org/tracks/javascript/exercises/vehicle-purchase) | [-](https://exercism.org/tracks/php/exercises/vehicle-purchase) | [-](https://exercism.org/tracks/python/exercises/vehicle-purchase) | [-](https://exercism.org/tracks/typescript/exercises/vehicle-purchase) | 1 |
 | word-count | [*](https://exercism.org/tracks/delphi/exercises/word-count) | [*](https://exercism.org/tracks/javascript/exercises/word-count) | [*](https://exercism.org/tracks/php/exercises/word-count) | [-](https://exercism.org/tracks/python/exercises/word-count) | [x](./exercism/typescript/word-count)[*](https://exercism.org/tracks/typescript/exercises/word-count) | 1 |
-|  |  |  |  |  |  |  87 |
+|  |  |  |  |  |  |  88 |
